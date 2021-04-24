@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="5dp"
+        android:baselineAlignBottom="false"
+        android:foregroundGravity="left"
+        app:srcCompat="@drawable/deficon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Mobile Application Project"
+        android:textColor="#514B4B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Layali Elkordy 191227"
+        android:textColor="#514B4B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/project" />
+
+    <Button
+        android:id="@+id/firebase"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/firebase"
+        android:gravity="center"
+        android:text="Firebase"
+        android:textColor="#514B4B"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:strokeColor="#FBC02D"
+        app:strokeWidth="2sp" />
+
+    <Button
+        android:id="@+id/sqlite"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/sqlite2"
+        android:gravity="center"
+        android:text="SQLite"
+        android:textColor="#514B4B"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:strokeColor="#175386"
+        app:strokeWidth="2sp" />
+
+    <Button
+        android:id="@+id/weather"
+        android:layout_width="344dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/weather"
+        android:gravity="center"
+        android:text="WeatherMap"
+        android:textColor="#514B4B"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:strokeColor="#DB2926"
+        app:strokeWidth="2sp" />
+</LinearLayout>
